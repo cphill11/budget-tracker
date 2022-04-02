@@ -13,6 +13,7 @@ With restoration of intenet access, deposits or expenses added during offline pe
 * npm
 * express
 * mongoose
+* bootstrap
 
 ## Usage
 Basic financial application that allows users to keep a log of expenditures while using a graph to visually illustrate trends in personal financial transactions.
