@@ -44,4 +44,19 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="js/index.js"></script>
 </body>
+<!-- script registering service worker -->
+<script>
+  // anonymous fxn w/ if statement; navigator = browser; if the serviceWorker is seen in browser, that service worker will be registered;  
+  (function () {
+    if ("serviceWorker" in navigator) {
+      // regristration of serviceWorker passes in the location of the service-worker file
+      navigator.serviceWorker.register("./service-worker.js")
+        // if went well, will receive success message
+        .then(() => console.log("Service Worker registered successfully."))
+        // if there is an error, an error will display
+        .catch(error => console.log("Service Worker registration failed:", error));
+    }
+    // immediately invoke fxn expression(IIFE); note the empty parenthesis;  AFTER the fxn as well as at start; this fxn will not be part of global set of fxns
+  })();
+</script>
 </html>

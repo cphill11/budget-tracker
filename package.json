@@ -1,5 +1,14 @@
 {
+    "name": "budget-tracker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "seed": "node seeders/seed.js",
+      "start": "node server.js"
+    },
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
   }
 }
