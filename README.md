@@ -10,18 +10,18 @@ With restoration of intenet access, deposits or expenses added during offline pe
 
 
 ## Installation
-* 
-* 
+* npm
+* express
+* mongoose
 
 ## Usage
-
-                                UPDATE THIS  IMAGE!!!
+Basic financial application that allows users to keep a log of expenditures while using a graph to visually illustrate trends in personal financial transactions.
 
 ## Website
 
-Github link: 
+Github link: https://cphill11.github.io/budget-tracker/
 
-Screencastify link: 
+Heroku link: 
 
 ## Image
 
