@@ -49,7 +49,7 @@
   // anonymous fxn w/ if statement; navigator = browser; if the serviceWorker is seen in browser, that service worker will be registered;  
   (function () {
     if ("serviceWorker" in navigator) {
-      // regristration of serviceWorker passes in the location of the service-worker file
+      // registration of serviceWorker passes in the location of the service-worker file
       navigator.serviceWorker.register("./service-worker.js")
         // if went well, will receive success message
         .then(() => console.log("Service Worker registered successfully."))
