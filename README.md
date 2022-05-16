@@ -23,7 +23,7 @@ Basic financial application that allows users to keep a log of expenditures whil
 
 ## Website
 
-Github link: https://cphill11.github.io/budget-tracker/
+Github link: https://github.com/cphill11/budget-tracker.git
 
 Heroku link: https://cphill11-budget-tracker.herokuapp.com/
 
